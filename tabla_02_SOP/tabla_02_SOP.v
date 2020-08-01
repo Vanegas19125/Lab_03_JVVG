@@ -30,5 +30,9 @@ A = 0; B = 0; C = 0;
 
 
 end
-
+initial
+    begin
+      $dumpfile("tabla_02_SOP_tb.vcd");
+      $dumpvars(0,tabla_02_SOP);
+    end
 endmodule

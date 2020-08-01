@@ -29,7 +29,10 @@ A = 0; B = 0; C = 0;
 #1 B = 1; C = 0;
 #1 C = 1;
 
-
 end
-
+initial
+    begin
+      $dumpfile("tabla_01_SOP_tb.vcd");
+      $dumpvars(0,tabla_01_SOP);
+    end
 endmodule
