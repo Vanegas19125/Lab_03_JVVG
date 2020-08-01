@@ -45,10 +45,6 @@ A = 0; B = 0; C = 0; D = 0;
 
 
 end
-initial
-    begin
-      $dumpfile("tabla_04_SOP_tb.vcd");
-      $dumpvars(0,tabla_04_SOP);
-    end
+
 
 endmodule

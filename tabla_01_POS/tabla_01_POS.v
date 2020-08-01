@@ -30,9 +30,5 @@ A = 0; B = 0; C = 0;
 
 
 end
-initial
-    begin
-      $dumpfile("tabla_01_POS_tb.vcd");
-      $dumpvars(0,tabla_01_POS);
-    end
+
 endmodule

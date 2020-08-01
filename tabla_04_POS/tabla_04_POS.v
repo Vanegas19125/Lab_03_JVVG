@@ -47,10 +47,6 @@ A = 0; B = 0; C = 0; D = 0;
 #1 D = 1;
 
 end
-initial
-    begin
-      $dumpfile("tabla_04_POS_tb.vcd");
-      $dumpvars(0,tabla_04_POS);
-    end
+
 
 endmodule
